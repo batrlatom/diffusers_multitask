@@ -13,6 +13,8 @@ if is_transformers_available():
         StableDiffusionImg2ImgPipeline,
         StableDiffusionInpaintPipeline,
         StableDiffusionPipeline,
+        StableDiffusionMultiTaskPipeline,
+
     )
 
 if is_transformers_available() and is_onnx_available():

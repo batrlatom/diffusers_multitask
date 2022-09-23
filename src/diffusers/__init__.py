@@ -53,6 +53,8 @@ if is_torch_available() and is_transformers_available():
         StableDiffusionImg2ImgPipeline,
         StableDiffusionInpaintPipeline,
         StableDiffusionPipeline,
+        StableDiffusionMultiTaskPipeline,
+
     )
 else:
     from .utils.dummy_torch_and_transformers_objects import *  # noqa F403
